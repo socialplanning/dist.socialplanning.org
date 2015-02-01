@@ -1,6 +1,6 @@
 [submodule "eggs"]
 	path = eggs
-	url = git://github.com/socialplanning/eggs.git
+	url = https://github.com/socialplanning/eggs.git
 [submodule "build/requirements"]
 	path = build/requirements
-	url = git://github.com/socialplanning/build-requirements.git
+	url = https://github.com/socialplanning/dist.socialplanning.org.git
