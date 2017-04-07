@@ -1,0 +1,5 @@
+This directory contains requirements files for various projects.
+
+Each file should be named project-req.txt
+
+This set of packages is for streetsblog.org

@@ -1,0 +1,2 @@
+-f https://svn.openplans.org/eggs/
+supervisor==3.0a6

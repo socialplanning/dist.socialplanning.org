@@ -1,0 +1,8 @@
+projtxt = group
+projprefs = Manage
+streetsblog_uri = http://woonerf.streetsblog.org
+streetfilms_uri = http://woonerf.streetfilms.org
+streetswiki_uri = http://woonerf.streetswiki.org
+ny_streetsblog_uri = http://woonerf.streetsblog.org
+la_streetsblog_uri = http://woonerf.la.streetsblog.org
+dc_streetsblog_uri = http://woonerf.dc.streetsblog.org

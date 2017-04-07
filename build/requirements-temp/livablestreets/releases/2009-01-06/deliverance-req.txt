@@ -1,0 +1,18 @@
+rules_repo = https://svn.openplans.org/svn/build/rules/livablestreets
+
+-f https://svn.openplans.org/eggs
+# Transcluder needs this, and the link isn't picked up right be easy_install:
+-f http://svn.openplans.org/eggs/pyavl-1.1.tar.gz#egg=pyavl-dev
+-e http://codespeak.net/svn/z3/deliverance/branches/0.2
+-e http://codespeak.net/svn/z3/deliverance/DeliveranceVHoster/trunk
+-e https://svn.openplans.org/svn/transcluder/trunk@21178
+-e http://svn.pythonpaste.org/Paste/WSGIFilter/trunk#egg=WSGIFilter
+-e https://svn.openplans.org/svn/eyvind/trunk
+-e https://svn.openplans.org/svn/signedheaders/trunk
+-e http://codespeak.net/svn/lxml/tag/lxml-1.3.6
+Paste
+Pylons>=0.9.6.2
+simplejson>=1.8.1
+Cython
+# Other versions of nose can get installed accidentally and cause conflicts XXX is this still true?
+nose>=0.9.3

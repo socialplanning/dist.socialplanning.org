@@ -1,0 +1,13 @@
+-e https://svn.openplans.org/svn/TaskTracker/trunk@23264
+-e https://svn.openplans.org/svn/CabochonClient/trunk@23577
+PasteScript
+mysql-python
+
+# these three are required by pylons but the build doesn't pull them down
+# XXX this is brittle 
+python-dateutil
+simplejson>=1.8.1
+Mako>=0.1.10
+nose>=0.9.3
+WebHelpers>=0.3.2,<0.6.dev
+decorator<3.0.0

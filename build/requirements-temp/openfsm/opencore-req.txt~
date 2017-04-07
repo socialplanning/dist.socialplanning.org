@@ -1,0 +1,92 @@
+-Z
+-f http://dist.socialplanning.org/eggs/
+
+-e git+git@github.com:socialplanning/CabochonClient.git#egg=CabochonClient-dev
+
+-e git+git@github.com:socialplanning/OpencoreRedirect.git@0.5#egg=OpencoreRedirect-0.5
+
+-e git+git@github.com:socialplanning/fassembler.configparser.git@0.2.1#egg=fassembler.configparser-0.2.1
+
+-e git+git@github.com:socialplanning/opencore.git#egg=opencore-dev
+
+-e git+git@github.com:socialplanning/oc-feed.git#egg=oc-feed-dev
+
+http://pypi.python.org/packages/source/r/restclient/restclient-0.10.1.tar.gz
+
+five.localsitemanager==0.4
+
+plone.app.form==1.0.4
+
+lxml==2.2.6
+
+#geopy is only needed for the i-think-unused oc-geo plugin .. but PleiadesGeocoder is linked into the bundle and has a hard dependency on it
+# http://dist.socialplanning.org/eggs/geopy-0.93_20071130-py2.4.egg
+# but we install it separately
+
+PIL==1.1.6
+Products.CMFSquidTool==1.5.1
+Products.CacheSetup==1.2
+Products.GenericSetup==1.4.1
+Products.PageCacheManager==1.2
+Products.PolicyHTTPCacheManager==1.2
+http://pypi.python.org/packages/source/z/zc.queue/zc.queue-1.1.tar.gz#md5=a84dd7dc7b390fd9256c05a18f4b79ea
+
+plone.memoize==1.0.4
+borg.localrole==2.0.1
+
+collective.testing==0.3
+decorator==2.2.0
+feedparser==4.1
+five.intid==0.3.0
+
+-e git+git@github.com:socialplanning/flunc.git#egg=flunc-dev
+
+-e git+git@github.com:socialplanning/oc-js.git#egg=oc-js-dev
+
+plone.fieldsets==1.0
+
+-f http://dist.socialplanning.org/eggs/twill-0.9.tar.gz#egg=twill
+twill
+
+plone.mail==0.1dev
+plonelibs==3.0.6.3
+python-dateutil==1.3
+
+uuid==1.30
+-e svn+http://svn.zope.org/repos/main/zope.dottedname/tags/3.4.5#egg=zope.dottedname-3.4.5
+-e git+git@github.com:socialplanning/zope.i18n.git#egg=zope.i18n-3.7.2opencore
+
+-e git+git@github.com:socialplanning/topp.featurelets.git#egg=topp.featurelets-dev
+-e git+git@github.com:socialplanning/topp.utils.git#egg=topp.utils-dev
+-e git+git@github.com:socialplanning/WSSEAuth.git#egg=WSSEAuth-dev
+
+threadframe>=0.2
+
+http://pypi.python.org/packages/source/p/pysqlite/pysqlite-2.6.0.tar.gz
+restclient==0.9.8
+simplejson==1.7.4
+FormEncode==1.0.1
+SQLObject==0.10.0b2
+
+# In order to use zinstall, we need the package source so we can get
+# at its setup.py. This is annoying, but I don't know what to do about
+# it.
+# equivalent to zcmlloader trunk@1430
+-e git+git@github.com:socialplanning/ZCMLLoader.git#egg=ZCMLLoader-dev
+zinstall_packages=zcmlloader
+
+-f https://github.com/socialplanning/Products.OFolder/tarball/master#egg=Products.OFolder-0.1vendor
+-f https://github.com/socialplanning/Products.MailBoxer/tarball/master#egg=Products.MailBoxer-0.1vendor
+-f https://github.com/socialplanning/Products.ManageableIndex/tarball/master#egg=Products.ManageableIndex-0.1vendor
+
+# We install listen as an editable checkout, but it might also be in the bundle.
+# So we just remove it from the bundle, to make sure the right listen is used.
+# If it's not present in the bundle, nothing will break, because it's an `rm -rf`.
+-e git+git@github.com:socialplanning/opencore-listen.git#egg=opencore-listen
+remove_products=listen
+
+-f https://launchpad.net/bzr/2.3
+bzr==2.3.4
+#http://launchpad.net/bzr/2.3/2.3.4/+download/bzr-2.3.4.tar.gz#egg=bzr-2.3.4
+https://pypi.python.org/packages/source/S/SQLAlchemy/SQLAlchemy-0.6.9.tar.gz
+-e git+git://github.com/socialplanning/sven.git#egg=sven-dev

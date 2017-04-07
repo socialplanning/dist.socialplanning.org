@@ -1,0 +1,14 @@
+simplejson==2.0.9
+Pygments==1.4
+Paste==1.7.2
+PasteScript==1.7.3
+PasteDeploy==1.3.4
+WebOb==1.0.8
+Beaker==1.5.4
+-e git+git://github.com/socialplanning/libopencore.git#egg=libopencore-dev
+-e git+git://github.com/deliverance/Deliverance.git#egg=Deliverance-dev
+WSGIFilter
+WSGIProxy
+setuptools
+-e git+git://github.com/socialplanning/eyvind.git#egg=eyvind-dev
+-e git+git://github.com/socialplanning/transcluder.git#egg=transcluder-dev

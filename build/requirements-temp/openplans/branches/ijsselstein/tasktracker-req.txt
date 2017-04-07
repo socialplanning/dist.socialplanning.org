@@ -1,0 +1,5 @@
+# TODO create tags of these:
+-e https://svn.openplans.org/svn/TaskTracker/trunk
+-e https://svn.openplans.org/svn/CabochonClient/trunk
+PasteScript
+mysql-python

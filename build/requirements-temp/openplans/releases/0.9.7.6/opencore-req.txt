@@ -1,0 +1,13 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+http://dist.repoze.org/PIL-1.1.6.tar.gz
+-f https://svn.openplans.org/svn/vendor/ClockServer/openplans/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/opencore/tags/0.9.7.6d
+-e https://svn.openplans.org/svn/topp.featurelets/tags/pre-p3-merge
+-e https://svn.openplans.org/svn/topp.utils/trunk
+-e https://svn.openplans.org/svn/WSSEAuth/trunk
+-e https://svn.openplans.org/svn/sputnik/tags/0.9.7.6a

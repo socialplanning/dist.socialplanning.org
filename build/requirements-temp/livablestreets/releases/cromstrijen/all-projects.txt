@@ -1,0 +1,11 @@
+# This lists all the projects that make up the standard build
+fassembler:topp
+fassembler:supervisor
+fassembler:deliverance
+fassembler:cabochon
+fassembler:twirlip
+fassembler:opencore
+fassembler:zeo
+fassembler:wordpress
+fassembler:scripttranscluder
+fassembler:nymap

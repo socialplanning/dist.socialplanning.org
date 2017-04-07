@@ -1,0 +1,4 @@
+-f https://svn.openplans.org/eggs
+-e https://svn.openplans.org/svn/deployments/livable-streets/frederiksoord/Cabochon/#egg=Cabochon
+PasteScript
+mysql-python

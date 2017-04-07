@@ -1,0 +1,8 @@
+-f https://svn.openplans.org/eggs
+
+mysql-python
+zope.dottedname
+repoze.who==1.0.15
+-e https://svn.openplans.org/svn/FeedBacker/trunk@25375#egg=feedbacker-dev
+-e https://svn.openplans.org/svn/opencore/plugins/oc-who/trunk@25372#egg=OpencoreWho
+-e https://svn.openplans.org/svn/FeedBacker/plugins/fb-opencore/trunk@25371#egg=FBOpencore

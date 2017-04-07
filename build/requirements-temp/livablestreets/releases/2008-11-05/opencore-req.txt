@@ -1,0 +1,29 @@
+opencore_site_id = openplans
+opencore_site_title = Livable Streets
+email_from_address = support@livablestreets.com
+mailing_list_fqdn = lists.livablestreets.com
+ftests_path = opencore/src/sputnik/ftests
+zinstall_packages = sputnik
+                    streetswiki
+                    zcmlloader
+
+--always-unzip
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz#egg=PIL-1.1.6
+-f https://svn.openplans.org/svn/vendor/ClockServer/openplans/#egg=ClockServer-0.1
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-f https://svn.openplans.org/svn/vendor/geopy/openplans/dist/geopy-0.93_20071130-py2.4.egg
+-e https://svn.openplans.org/svn/opencore/branches/people-cloud@21261#egg=opencore
+-e https://svn.openplans.org/svn/topp.featurelets/tags/pre-p3-merge
+-e https://svn.openplans.org/svn/topp.utils/trunk
+-e https://svn.openplans.org/svn/WSSEAuth/trunk
+-e https://svn.openplans.org/svn/sputnik/branches/0.9.8@21261
+-e https://svn.openplans.org/svn/StreetsWiki/trunk
+-e https://svn.openplans.org/svn/ZCMLLoader/trunk
+-e https://svn.openplans.org/svn/opencore/plugins/oc-feed/tags/pre-p3-merge
+-e https://svn.openplans.org/svn/opencore/plugins/oc-vacuum/trunk
+-e https://svn.openplans.org/svn/fassembler.configparser/tags/0.2
+threadframe>=0.2
+PIL
+ClockServer
+geopy

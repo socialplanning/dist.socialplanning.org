@@ -1,0 +1,7 @@
+-e https://svn.openplans.org/svn/ErrorEater/trunk@19556
+# The Pylons trunk:
+https://www.knowledgetap.com/hg/pylons-dev/archive/tip.tar.gz#egg=Pylons-dev
+Beaker==0.9.5
+PasteScript
+pysqlite
+https://svn.openplans.org/svn/DevAuth/trunk#egg=DevAuth@21893

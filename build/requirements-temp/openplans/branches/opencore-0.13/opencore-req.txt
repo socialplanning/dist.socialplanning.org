@@ -1,0 +1,28 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/vendor/ClockServer/openplans/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/opencore/tags/0.13.0
+-e https://svn.openplans.org/svn/CabochonClient/trunk
+-e https://svn.openplans.org/svn/topp.utils/trunk
+-e https://svn.openplans.org/svn/WSSEAuth/trunk
+-e https://svn.openplans.org/svn/ZCMLLoader/trunk
+-e https://svn.openplans.org/svn/opencore/plugins/oc-cab/trunk
+-e https://svn.openplans.org/svn/opencore/plugins/oc-tt/trunk
+-e https://svn.openplans.org/svn/opencore/plugins/oc-feed/branches/plone3
+-e https://svn.openplans.org/svn/fassembler.configparser/tags/0.2
+-f https://svn.openplans.org/svn/vendor/geopy/openplans/dist/geopy-0.93_20071130-py2.4.egg
+
+
+topp.featurelets==0.3.0
+geopy
+threadframe>=0.2
+plonelibs>=3.0.6.2
+
+zinstall_packages = zcmlloader
+
+opencore_site_id = openplans
+opencore_site_title = OpenPlans

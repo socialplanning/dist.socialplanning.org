@@ -1,0 +1,30 @@
+--find-links http://dist.socialplanning.org/eggs
+
+# Some silly link somewhere causes 0.16-dev to be installed unless we specify.
+# The last release, 0.15.0, seems to have changed something about sqlobject.events
+# which causes tasktracker.lib.eventserver.taskCreated to fail because of
+# an incorrect signature.
+SQLObject==0.14.1
+
+# these three are required by pylons but the build doesn't pull them down
+# XXX this is brittle 
+http://pypi.python.org/packages/source/W/WebHelpers/WebHelpers-0.3.4.tar.gz
+python-dateutil==1.5
+simplejson==2.0.9
+Mako>=0.1.10
+nose>=0.9.3
+decorator<3.0.0
+Beaker==1.5.1
+WebOb
+Routes==1.11
+
+-e https://svn.socialplanning.org/svn/SupervisorErrorMiddleware/trunk
+-e https://svn.socialplanning.org/svn/TaskTracker/trunk
+-e https://svn.socialplanning.org/svn/CabochonClient/trunk
+-e https://svn.socialplanning.org/svn/CabochonServer/trunk
+Paste==1.7.2
+PasteScript==1.7.3
+PasteDeploy==1.3.4
+
+mysql-python
+

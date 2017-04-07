@@ -1,0 +1,25 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/vendor/ClockServer/openplans/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/opencore/branches/0.12
+-e https://svn.openplans.org/svn/fassembler.configparser/tags/0.2
+-f https://svn.openplans.org/svn/vendor/geopy/openplans/dist/geopy-0.93_20071130-py2.4.egg
+
+
+geopy
+threadframe==0.2
+wsseauth==0.1
+oc-feed==0.1
+topp.featurelets==0.2.2
+topp.utils==0.5
+
+# In order to use zinstall, we need the package source so we can get
+# at its setup.py. This is annoying, but I don't know what to do about
+# it.
+-e https://svn.openplans.org/svn/ZCMLLoader/tags/0.1#egg=ZCMLLoader-0.1
+zinstall_packages = zcmlloader
+

@@ -1,0 +1,13 @@
+#django_tarball_url = http://svn.openplans.org/eggs/Django-0.96.2.tar.bz2
+#django_tarball_version = 0.96.2
+
+MySQL-python
+#pysqlite
+
+-f http://svn.openplans.org/eggs/Django-0.97_newforms-admin_r7815.tar.bz2#egg=django-0.97-newforms-admin
+django==0.97-newforms-admin
+
+flunc>=0.3-dev
+pexpect
+
+-e https://svn.openplans.org/svn/brainpower/tags/0.5.0

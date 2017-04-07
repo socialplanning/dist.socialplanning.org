@@ -1,0 +1,4 @@
+-f https://svn.openplans.org/eggs
+-e https://svn.openplans.org/svn/TaskTracker/branches/0.1.1
+PasteScript
+mysql-python

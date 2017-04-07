@@ -1,0 +1,21 @@
+-f https://svn.openplans.org/eggs/
+# Transcluder needs this, and the link isn't picked up right be easy_install:
+-f http://superb-west.dl.sourceforge.net/sourceforge/pyavl/pyavl-1.1.tar.gz#egg=pyavl-dev
+
+# Make sure we don't get too recent a version of transcluder;
+# its requirements caused conflicts on nose and lxml.
+-e https://svn.openplans.org/svn/transcluder/trunk@21178
+
+# More recent versions of Pylons cause conflicts on FormEncode.
+Pylons==0.9.7rc2
+
+-e http://codespeak.net/svn/z3/deliverance/DeliveranceVHoster/trunk@55138
+-e http://codespeak.net/svn/z3/deliverance/branches/0.2
+-e https://svn.openplans.org/svn/eyvind/trunk@18052
+-e https://svn.openplans.org/svn/signedheaders/trunk@16544
+-e http://svn.pythonpaste.org/Paste/WSGIFilter/trunk@7189
+PasteScript
+cython
+
+lxml==1.3.6
+

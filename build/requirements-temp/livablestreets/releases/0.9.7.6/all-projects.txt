@@ -1,0 +1,9 @@
+# This lists all the projects that make up the standard build
+fassembler:topp
+fassembler:supervisor
+fassembler:deliverance
+fassembler:opencore
+# Maybe only for the dev build?:
+fassembler:zeo
+fassembler:wordpress
+fassembler:scripttranscluder

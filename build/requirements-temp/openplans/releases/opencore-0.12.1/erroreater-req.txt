@@ -1,0 +1,5 @@
+-e https://svn.openplans.org/svn/ErrorEater/tags/1.0
+Beaker==1.0.0
+Pylons==0.9.7rc1
+PasteScript==1.6.3
+pysqlite==2.4.1

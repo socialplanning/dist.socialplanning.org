@@ -1,0 +1,2 @@
+projtxt = project
+projprefs = Manage

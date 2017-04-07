@@ -1,0 +1,33 @@
+-f https://svn.openplans.org/eggs/
+-e https://svn.openplans.org/svn/cookieauth/trunk
+
+Beaker==1.3
+## FIXME: could not find svn URL in dependency_links for this package:
+#CabochonServer==0.1dev-r12624
+FormEncode==1.2.1
+Mako==0.2.4
+MySQL-python==1.2.2
+Paste==1.7.2
+PasteDeploy==1.3.3
+PasteScript==1.7.3
+WebHelpers==0.6.4
+Pylons==0.9.6.2
+Routes==1.10.3
+SQLObject==0.10.0b2
+-e https://svn.openplans.org/svn/SupervisorErrorMiddleware/trunk/#egg=SupervisorErrorMiddleware-0.0.0
+-e https://svn.openplans.org/svn/Twirlip/trunk@24326#egg=Twirlip-0.1dev_r22803-py2.4-dev_r24326
+WSGIUtils==0.7
+WSSEAuth==0.1.1
+WebOb==0.9.6.1
+-e https://svn.openplans.org/svn/cookieauth/trunk@22942#egg=cookieauth-0.0dev_r22942-py2.4-dev_r22942
+decorator==2.2.0
+elementtree==1.2.7-20070827-preview
+httplib2==0.4.0
+nose==0.10.4
+python-dateutil==1.3
+restclient==0.9.8
+signedheaders==0.0
+simplejson==1.7.4
+topp.utils==0.5
+wsgi-intercept==0.4
+zope.dottedname==3.4.5

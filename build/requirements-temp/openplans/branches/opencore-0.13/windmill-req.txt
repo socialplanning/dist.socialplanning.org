@@ -1,0 +1,2 @@
+-e http://svn.osafoundation.org/windmill/trunk
+fassembler.configparser

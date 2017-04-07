@@ -1,0 +1,8 @@
+-e https://svn.socialplanning.org/svn/opencore/libopencore/trunk
+-e http://codespeak.net/svn/z3/deliverance/trunk
+WebOb
+WSGIFilter
+WSGIProxy
+setuptools
+-e https://svn.socialplanning.org/svn/eyvind/trunk
+-e https://svn.socialplanning.org/svn/transcluder/trunk

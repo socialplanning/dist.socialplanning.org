@@ -1,0 +1,1 @@
+zopectl_scripts = src/streetswiki/opencore/streetswiki/add_streetswiki.py

@@ -1,0 +1,3 @@
+-f https://svn.openplans.org/eggs
+-e https://svn.openplans.org/svn/deployments/livable-streets/eindhoven/ScriptTranscluder/#egg=ScriptTranscluder
+PasteScript

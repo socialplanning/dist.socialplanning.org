@@ -1,0 +1,4 @@
+-e https://svn.openplans.org/svn/TaskTracker/trunk@16468#egg=TaskTracker
+-e https://svn.openplans.org/svn/CabochonClient/trunk@13123#egg=CabochonClient
+PasteScript==1.6.3
+mysql-python==1.2.2

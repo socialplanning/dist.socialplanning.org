@@ -1,0 +1,2 @@
+-e https://svn.openplans.org/svn/WordpressWidgets/relateme/trunk
+PasteScript

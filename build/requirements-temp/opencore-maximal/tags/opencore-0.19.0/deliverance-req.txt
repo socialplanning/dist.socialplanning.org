@@ -1,0 +1,24 @@
+rules_repo = https://svn.socialplanning.org/svn/build/rules/openplans
+
+-f https://svn.openplans.org/eggs/
+
+# Transcluder needs this, and the link isn't picked up right be easy_install:
+-f http://svn.openplans.org/eggs/pyavl-1.1.tar.gz#egg=pyavl-dev
+pyavl-dev
+enum
+
+-e http://codespeak.net/svn/z3/deliverance/DeliveranceVHoster/trunk
+-e http://codespeak.net/svn/z3/deliverance/branches/0.2
+-e https://svn.socialplanning.org/svn/eyvind/trunk
+-e https://svn.socialplanning.org/svn/signedheaders/trunk
+-e http://svn.pythonpaste.org/Paste/WSGIFilter/trunk
+-e https://svn.socialplanning.org/svn/timingmiddleware/trunk
+PasteScript
+Pylons>=0.9.6.2
+simplejson>=1.8.1
+# cython 0.11 breaks lxml 2.0.3.
+cython<0.11
+lxml>=2.0.3
+# Other versions of nose can get installed accidentally and cause conflicts:
+nose>=0.9.3
+Beaker==1.5.1

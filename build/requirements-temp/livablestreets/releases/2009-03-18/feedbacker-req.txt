@@ -1,0 +1,7 @@
+-f https://svn.openplans.org/eggs
+
+mysql-python
+zope.dottedname
+-e http://svn.repoze.org/repoze.who/trunk#egg=repoze.who
+-e https://svn.openplans.org/svn/FeedBacker/trunk#egg=feedbacker-dev
+-e https://svn.openplans.org/svn/opencore/plugins/oc-who#egg=OpencoreWho

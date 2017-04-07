@@ -1,0 +1,27 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/deployments/livable-streets/groningen/ClockServer/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/opencore/#egg=opencore
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/topp.featurelets/#egg=topp.featurelets
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/topp.utils/#egg=topp.utils
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/WSSEAuth/#egg=WSSEAuth
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/sputnik/#egg=sputnik
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/StreetsWiki/#egg=StreetsWiki
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/ZCMLLoader/#egg=ZCMLLoader
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/oc-feed/#egg=oc-feed
+-e https://svn.openplans.org/svn/deployments/livable-streets/groningen/configparser/#egg=configparser
+
+zinstall_packages = sputnik
+                    streetswiki
+                    zcmlloader
+
+opencore_site_id = openplans
+opencore_site_title = Livable Streets
+email_from_address = support@livablestreets.com
+mailing_list_fqdn = lists.livablestreets.com
+
+ftests_path = opencore/src/sputnik/ftests

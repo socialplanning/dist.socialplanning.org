@@ -1,0 +1,2 @@
+wordpress_repo = https://svn.github.com/socialplanning/opencore-wordpress-mu
+topp_wordpress_theme = openplans

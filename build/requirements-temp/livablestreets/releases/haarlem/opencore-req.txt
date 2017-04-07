@@ -1,0 +1,27 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/deployments/livable-streets/haarlem/ClockServer/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/opencore/#egg=opencore
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/topp.featurelets/#egg=topp.featurelets
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/topp.utils/#egg=topp.utils
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/WSSEAuth/#egg=WSSEAuth
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/sputnik/#egg=sputnik
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/StreetsWiki/#egg=StreetsWiki
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/ZCMLLoader/#egg=ZCMLLoader
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/oc-feed/#egg=oc-feed
+-e https://svn.openplans.org/svn/deployments/livable-streets/haarlem/configparser/#egg=configparser
+
+zinstall_packages = sputnik
+                    streetswiki
+                    zcmlloader
+
+opencore_site_id = openplans
+opencore_site_title = Livable Streets
+email_from_address = support@livablestreets.com
+mailing_list_fqdn = lists.livablestreets.com
+
+ftests_path = opencore/src/sputnik/ftests

@@ -1,0 +1,27 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/ClockServer/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/opencore/#egg=opencore
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/CabochonClient/#egg=CabochonClient
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/topp.featurelets/#egg=topp.featurelets
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/topp.utils/#egg=topp.utils
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/WSSEAuth/#egg=WSSEAuth
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/ZCMLLoader/#egg=ZCMLLoader
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/oc-cab/#egg=oc_cab
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/oc-feed/#egg=oc_feed
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/oc-tt/#egg=oc_tt
+
+-e https://svn.openplans.org/svn/deployments/openplans/tobefair.bugfixes/configparser/#egg=configparser
+
+threadframe>=0.2
+
+zinstall_packages = zcmlloader
+
+opencore_site_id = openplans
+opencore_site_title = OpenPlans
+email_from_address = support@openplans.org
+mailing_list_fqdn = lists.openplans.org

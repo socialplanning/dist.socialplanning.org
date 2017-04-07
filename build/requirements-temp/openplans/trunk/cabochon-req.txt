@@ -1,0 +1,4 @@
+-e https://svn.openplans.org/svn/Cabochon/trunk
+-e https://svn.openplans.org/svn/WSSEAuth/trunk
+PasteScript
+MySQL-python

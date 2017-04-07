@@ -1,0 +1,29 @@
+zinstall_packages = zcmlloader
+
+opencore_site_id = openplans
+opencore_site_title = OpenPlans
+email_from_address = support@openplans.org
+mailing_list_fqdn = lists.openplans.org
+
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/vendor/ClockServer/openplans#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/opencore/tags/0.11.3/#egg=opencore
+-e https://svn.openplans.org/svn/CabochonClient/trunk@13123#egg=CabochonClient
+-e https://svn.openplans.org/svn/topp.featurelets/trunk@15882#egg=topp.featurelets
+-e https://svn.openplans.org/svn/topp.utils/trunk@16317#egg=topp.utils
+-e https://svn.openplans.org/svn/WSSEAuth/trunk@14327#egg=WSSEAuth
+-e https://svn.openplans.org/svn/ZCMLLoader/trunk@14130#egg=ZCMLLoader
+-e https://svn.openplans.org/svn/opencore/plugins/oc-cab/trunk@16578#egg=oc_cab
+-e https://svn.openplans.org/svn/opencore/plugins/oc-feed/trunk@16593#egg=oc_feed
+-e https://svn.openplans.org/svn/opencore/plugins/oc-tt/trunk@16524#egg=oc_tt
+-e https://svn.openplans.org/svn/opencore/plugins/oc-vacuum/trunk@17241#egg=oc_vacuum
+-e https://svn.openplans.org/svn/fassembler.configparser/tags/0.2
+-f https://svn.openplans.org/svn/vendor/geopy/openplans/dist/geopy-0.93_20071130-py2.4.egg
+geopy
+
+threadframe>=0.2

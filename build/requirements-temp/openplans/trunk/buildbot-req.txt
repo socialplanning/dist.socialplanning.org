@@ -1,0 +1,7 @@
+Jinja2==2.5.5
+Twisted==10.1.0
+buildbot==0.7.12
+portutils==0.0
+pysqlite==2.6.0
+simplejson==2.1.1
+zope.interface==3.6.1

@@ -1,0 +1,25 @@
+-f https://svn.openplans.org/eggs/
+Beaker==1.3
+DevAuth==0.1
+FormEncode==1.2.1
+Mako==0.2.4
+MySQL-python==1.2.2
+Paste==1.7.2
+PasteDeploy==1.3.3
+PasteScript==1.7.3
+Pylons==0.9.6.2
+Routes==1.10.3
+SQLObject==0.10.0b2
+SupervisorErrorMiddleware==0.0.0
+Tempita==0.2
+WSGIUtils==0.7
+WSSEAuth==0.1.1
+WebHelpers==0.6.4
+WebOb==0.9.6.1
+decorator==3.0.0
+httplib2==0.4.0
+nose==0.10.4
+restclient==0.9.8
+simplejson==1.7.4
+-e svn+https://svn.openplans.org/svn/Cabochon/trunk@22888
+-e svn+https://svn.openplans.org/svn/DevAuth/trunk@21893

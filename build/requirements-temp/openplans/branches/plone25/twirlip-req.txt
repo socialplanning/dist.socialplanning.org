@@ -1,0 +1,8 @@
+-f https://svn.openplans.org/eggs/
+# This avoids a version conflict later:
+decorator>=2.1.0
+-e https://svn.openplans.org/svn/Twirlip/trunk@15794#egg=Twirlip
+-e https://svn.openplans.org/svn/cookieauth/trunk@11102#egg=cookieauth
+PasteScript==1.6.3
+mysql-python==1.2.2
+simplejson==1.9.2

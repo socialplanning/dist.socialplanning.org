@@ -1,0 +1,11 @@
+-f https://svn.openplans.org/eggs/
+-e https://svn.openplans.org/svn/henge/trunk
+-e https://svn.openplans.org/svn/cookieauth/trunk
+PasteScript
+mysql-python
+Mako>=0.2.3
+nose>=0.9.3
+Formencode>=1.2
+
+
+

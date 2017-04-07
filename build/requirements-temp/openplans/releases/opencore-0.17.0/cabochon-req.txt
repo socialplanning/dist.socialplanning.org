@@ -1,0 +1,4 @@
+-f https://svn.openplans.org/eggs/
+-e https://svn.openplans.org/svn/Cabochon/trunk@22888
+PasteScript
+mysql-python

@@ -1,0 +1,11 @@
+libopencore==0.6
+Deliverance==0.4.2
+Paste==1.7.2
+PasteScript==1.7.3
+PasteDeploy==1.3.4
+WebOb
+WSGIFilter
+WSGIProxy
+setuptools
+-e https://svn.socialplanning.org/svn/eyvind/trunk
+-e https://svn.socialplanning.org/svn/transcluder/trunk

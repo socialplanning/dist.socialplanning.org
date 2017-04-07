@@ -1,0 +1,7 @@
+-f https://svn.openplans.org/eggs
+# This avoids a version conflict later:
+decorator>=2.1.0
+-e https://svn.openplans.org/svn/deployments/livable-streets/denhaag/Twirlip/#egg=Twirlip
+-e https://svn.openplans.org/svn/deployments/livable-streets/denhaag/cookieauth/#egg=cookieauth
+PasteScript
+mysql-python

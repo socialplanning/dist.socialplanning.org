@@ -1,0 +1,3 @@
+projtxt = group
+streetsblog_uri = http://stage.streetsblog.org
+streetfilms_uri = http://stage.streetfilms.org

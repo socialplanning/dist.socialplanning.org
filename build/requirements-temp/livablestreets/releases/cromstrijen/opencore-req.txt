@@ -1,0 +1,22 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/ClockServer/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/opencore/#egg=opencore
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/CabochonClient/#egg=CabochonClient
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/topp.featurelets/#egg=topp.featurelets
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/topp.utils/#egg=topp.utils
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/WSSEAuth/#egg=WSSEAuth
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/sputnik/#egg=sputnik
+-e https://svn.openplans.org/svn/deployments/livable-streets/cromstrijen/StreetsWiki/#egg=StreetsWiki
+
+zinstall_packages = sputnik
+                    streetswiki
+
+opencore_site_id = openplans
+opencore_site_title = YourStreets
+
+disable_tasktracker = true

@@ -1,0 +1,5 @@
+-e svn+https://svn.socialplanning.org/svn/opencore_zinefarm/trunk#egg=opencore_zinefarm
+PasteScript
+SQLAlchemy
+-e svn+https://svn.socialplanning.org/svn/opencore/libopencore/trunk
+-e hg+http://bitbucket.org/ejucovy/zine-main#egg=Zine

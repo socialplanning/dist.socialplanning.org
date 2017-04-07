@@ -1,0 +1,4 @@
+This directory contains requirements files for various projects,
+for the 0.12 branch of opencore, which runs on Plone 2.5 / Zope 2.9.
+
+Each file should be named project-req.txt

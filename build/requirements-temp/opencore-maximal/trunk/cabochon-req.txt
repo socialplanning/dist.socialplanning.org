@@ -1,0 +1,14 @@
+simplejson==2.0.9
+Paste==1.7.2
+PasteScript==1.7.3
+PasteDeploy==1.3.4
+WebOb==1.0.8
+-f http://dist.socialplanning.org/eggs/
+http://pypi.python.org/packages/source/S/SQLObject/SQLObject-0.15.0.tar.gz
+webhelpers==0.6.4
+http://www.owlfish.com/software/wsgiutils/downloads/WSGIUtils-0.7.tar.gz
+-e git+git://github.com/socialplanning/SupervisorErrorMiddleware.git#egg=SupervisorErrorMiddleware-dev
+-e git+git://github.com/socialplanning/Cabochon.git#egg=Cabochon-dev
+mysql-python
+Beaker==1.5.1
+Routes==1.11

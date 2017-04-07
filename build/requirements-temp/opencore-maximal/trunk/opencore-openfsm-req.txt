@@ -1,0 +1,7 @@
+Paste==1.7.2
+PasteScript==1.7.3
+PasteDeploy==1.3.4
+plone.browserlayer==1.0.1
+Products.LinguaPlone==2.1.1
+-e git+git://github.com/socialplanning/openfsm.git
+-e git+git://github.com/socialplanning/unweb.trusted.git

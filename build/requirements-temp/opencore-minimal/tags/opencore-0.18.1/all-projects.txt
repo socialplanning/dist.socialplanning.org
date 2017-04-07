@@ -1,0 +1,9 @@
+# This lists all the projects that make up the minimal opencore build.
+# Ftests may or may not pass; our ftests are really tests of
+# the full openplans stack, not "opencore".
+
+fassembler:topp
+fassembler:supervisor
+fassembler:opencore
+fassembler:i18ndude
+fassembler:zeo

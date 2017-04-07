@@ -1,0 +1,77 @@
+-Z
+-f https://svn.openplans.org/eggs/
+
+-e https://svn.openplans.org/svn/CabochonClient/trunk@21270#egg=CabochonClient-0.1dev_r21270-py2.4-dev
+
+-e https://svn.openplans.org/svn/OpencoreRedirect/tags/0.5#egg=OpencoreRedirect-0.5
+-e https://svn.openplans.org/svn/fassembler.configparser/tags/0.2.1#egg=fassembler.configparser-0.2.1
+-e https://svn.openplans.org/svn/opencore/branches/0.18
+
+-e https://svn.openplans.org/svn/opencore/plugins/oc-feed/trunk
+
+-e https://svn.openplans.org/svn/opencore/plugins/oc-cab/trunk
+-e https://svn.openplans.org/svn/opencore/plugins/oc-tt/trunk
+-e https://svn.openplans.org/svn/opencore/plugins/oc-wp/trunk
+
+five.localsitemanager==0.4
+
+plone.app.form==1.0.4
+
+-f https://svn.openplans.org/svn/vendor/geopy/openplans/dist/geopy-0.93_20071130-py2.4.egg
+geopy
+
+PIL==1.1.6
+Products.CMFSquidTool==1.5.1
+Products.CacheSetup==1.2
+Products.GenericSetup==1.4.1
+Products.PageCacheManager==1.2
+Products.PolicyHTTPCacheManager==1.2
+
+plone.memoize==1.0.4
+borg.localrole==2.0.1
+
+collective.testing==0.3
+decorator==2.2.0
+feedparser==4.1
+five.intid==0.3.0
+flunc
+
+-e https://svn.openplans.org/svn/oc-js/trunk
+
+plone.fieldsets==1.0
+
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+twill
+
+plone.mail==0.1dev
+plonelibs==3.0.6.3
+python-dateutil==1.3
+
+uuid==1.30
+zope.dottedname==3.4.5
+
+-e https://svn.openplans.org/svn/topp.featurelets/trunk
+-e https://svn.openplans.org/svn/topp.utils/trunk
+-e https://svn.openplans.org/svn/WSSEAuth/trunk
+
+threadframe>=0.2
+
+pysqlite==2.4.0
+restclient==0.9.8
+simplejson==1.7.4
+FormEncode==1.0.1
+SQLObject==0.10.0b2
+
+# In order to use zinstall, we need the package source so we can get
+# at its setup.py. This is annoying, but I don't know what to do about
+# it.
+# equivalent to zcmlloader trunk@1430
+-e https://svn.openplans.org/svn/ZCMLLoader/trunk
+zinstall_packages=zcmlloader
+
+-e https://svn.openplans.org/svn/opencore/plugins/oc-piwik/trunk
+
+httplib2==0.4.0
+lxml==2.0.3
+
+-e https://svn.openplans.org/svn/opencore/themes/avata#egg=oc-themes-avata

@@ -1,0 +1,24 @@
+-Z
+-f https://svn.openplans.org/eggs/
+-f http://dist.repoze.org/PIL-1.1.6.tar.gz
+PIL
+-f https://svn.openplans.org/svn/vendor/ClockServer/openplans/#egg=ClockServer-0.1
+ClockServer
+-f https://svn.openplans.org/eggs/twill-0.9.tar.gz#egg=twill
+-e https://svn.openplans.org/svn/opencore/trunk
+-e https://svn.openplans.org/svn/CabochonClient/trunk
+-e https://svn.openplans.org/svn/topp.featurelets/trunk
+-e https://svn.openplans.org/svn/topp.utils/trunk
+-e https://svn.openplans.org/svn/WSSEAuth/trunk
+-e https://svn.openplans.org/svn/ZCMLLoader/trunk
+-e https://svn.openplans.org/svn/oc-cab/trunk
+-e https://svn.openplans.org/svn/oc-tt/trunk
+-e https://svn.openplans.org/svn/oc-feed/trunk
+
+fassembler.configparser==0.1
+threadframe>=0.2
+
+zinstall_packages = zcmlloader
+
+opencore_site_id = openplans
+opencore_site_title = OpenPlans

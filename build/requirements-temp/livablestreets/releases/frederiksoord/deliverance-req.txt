@@ -1,0 +1,14 @@
+-f https://svn.openplans.org/eggs
+# Transcluder needs this, and the link isn't picked up right be easy_install:
+-f http://superb-west.dl.sourceforge.net/sourceforge/pyavl/pyavl-1.1.tar.gz#egg=pyavl-dev
+-e http://codespeak.net/svn/z3/deliverance/tags/0.1.2/#egg=deliverance
+-e http://codespeak.net/svn/z3/deliverance/DeliveranceVHoster/tags/0.1.2/#egg=deliverancevhoster
+-e https://svn.openplans.org/svn/deployments/livable-streets/frederiksoord/eyvind/#egg=eyvind
+-e https://svn.openplans.org/svn/deployments/livable-streets/frederiksoord/signedheaders/#egg=signedheaders
+PasteScript
+cython
+-e http://codespeak.net/svn/lxml/tag/lxml-1.3.6
+# Other versions of nose can get installed accidentally and cause conflicts:
+nose>=0.9.3
+
+default_theme_uri = http://woonerf.livablestreets.com/theme.html
